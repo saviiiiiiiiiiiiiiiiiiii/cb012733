@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon grocers</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+    <body style="background-color: black;"></body>
+    </body>
+        </div>
+        
+                <div class="logo">
+                    <img src="images/LOGO.png" width="200cm" height="200cm">
+                    <nav>
+                  <ul class="nav-links">
+
+                <li><a href="homepagee.html" class="active">Home</a></li>
+                <li><a href="aboutus.html" class="active">About us</a></li>
+                <li><a href="vegetablee.html"class="active">Vegetables</a></li>
+                <li><a href="dairyy.html"class="active">Dairy products</a></li>
+                <li><a href="cosmatic.html"class="active">Cosmetics</a></li>
+                <li><a href="loyalty regi.html"class="active">Loyalty registration</a></li>
+                <li><a href="order.html"class="active">Order page</a></li>
+
+                </ul>
+                </div>
+            </nav>
+
+          <div class="header-content">
+            <h1>order page</h1>
+            <p>Freshness from our isle, Ceylon grocers delight</p>
+          </div>
+
+        </div>
+    </section>
+
+    <section class="welcome">
+        <div class="container">
+            <div class="wel-sec">
+                <div class="content">
+                    <h1>WELCOME TO THE ORDER PAGE!</h1>
+                    <P> Welcome to our vegetable section! Explore a vibrant array of fresh, locally sourced produce to inspire your next culinary adventure.
+                        From crisp greens to colorful root vegetables, we're your one-stop destination for farm-fresh goodness. 
+                        Dive in and discover the bounty of nature's finest offerings, 
+                        ready to elevate your meals to new heights</P>       
+                </div>
+            </div>
+
+                <section class="order-form">
+                    <h2>Place Your Order</h2>
+                    <form>
+                        <label for="product">Product:</label>
+                        <select id="product" name="product">
+                            <option value="product1">Vegetables</option>
+                            <option value="product2">Cosmetics</option>
+                            <option value="product3">Dairy products</option>
+                        </select>
+        
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+        
+                        <label for="address">Shipping Address:</label>
+                        <textarea id="address" name="address" rows="4"></textarea>
+        
+                        <button type="submit">Place Order</button>
+                    </form>
+                </section>
+                <section class="categories">
+                    <fieldset class="customerInfo">
+                        <legend>Order Details</legend>
+                        <label for="name">Name : </label>
+                        <input type="text" placeholder="Enter your name">
+                        <label for="address">Address : </label>
+                        <input type="text" placeholder="Enter your address">
+                        <label for="contact">Contact Number : </label>
+                        <input type="text" placeholder="Enter your contact number">
+                        <label for="email">Email : </label>
+                        <input type="email" placeholder="Enter your email">
+                        <label for="delivery">Delivery Date : </label>
+                        <input type="date">
+                        <label for="delivery">Delivery Method : </label>
+                        <select name="delivery" id="">
+                        <option value="">Pickup</option>
+                        <option value="">Delivery</option>
+                        </select>
+                        <label for="delivery">Payment Method : </label>
+                        <select name="delivery" id="">
+                            <option value="">Cash</option>
+                            <option value="">Card</option>
+                        </select>
+                        <button id="clearBtn" class="infobtns1">Clear</button>
+                        <button id="checkOut" class="infobtns2">Check Out</button>
+                    </fieldset>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <p>We are a dedicated team providing quality products and services to our customers.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ceylon grocers All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+</html>
